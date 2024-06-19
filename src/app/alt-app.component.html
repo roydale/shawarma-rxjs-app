@@ -1,0 +1,73 @@
+<div class="shawarma-maker">
+  <div>
+    <h3>Shawarma Maker 3000</h3>
+    <img src="assets/shawarma.png" alt="shawarma" width="25" />
+  </div>
+  <hr />
+
+  <div>
+    <div class="ingredient">
+      <span>Remaining: {{ flatBreadCount - shawarmas.length }}</span>
+      <button (click)="_flatBread.next('Flat Bread')">Flat Bread</button>
+    </div>
+
+    <div class="ingredient">
+      <span>Remaining: {{ meatCount - shawarmas.length }}</span>
+      <button (click)="_meat.next('Meat')">Meat</button>
+    </div>
+
+    <div class="ingredient">
+      <span>Remaining: {{ yogurtSauceCount - shawarmas.length }}</span>
+      <button (click)="_yogurtSauce.next('Yogurt Sauce')">Yogurt Sauce</button>
+    </div>
+
+    <div class="ingredient">
+      <span>Remaining: {{ spicesCount - shawarmas.length }}</span>
+      <button (click)="_spices.next('Spices')">Spices</button>
+    </div>
+
+    <div class="ingredient">
+      <span>Remaining: {{ tomatoCount - shawarmas.length }}</span>
+      <button (click)="_tomato.next('Tomato')">Tomato</button>
+    </div>
+
+    <div class="ingredient">
+      <span>Remaining: {{ lemonJuiceCount - shawarmas.length }}</span>
+      <button (click)="_lemonJuice.next('Lemon Juice')">Lemon Juice</button>
+    </div>
+  </div>
+
+  <div>
+    <ng-container *ngIf="shawarma$ | async as shawarma">
+      <section *ngIf="shawarma && shawarma.length > 0">
+        <h5>
+          Enjoy your
+          <ul>
+            <li *ngIf="happyShawarmaCount > 0">
+              {{ happyShawarmaCount }} <s>Creepy</s> Happy
+              <span *ngIf="happyShawarmaCount === 1"> Shawarma</span>
+              <span *ngIf="happyShawarmaCount > 1"> Shawarmas </span>
+            </li>
+            <li *ngIf="regularShawarmaCount > 0">
+              {{ regularShawarmaCount }}
+              <span *ngIf="regularShawarmaCount === 1"> Shawarma</span>
+              <span *ngIf="regularShawarmaCount > 1"> Shawarmas</span>
+            </li>
+          </ul>
+        </h5>
+        @for (shawarma of shawarmas; track shawarma) {
+          <img
+            src="{{
+              shawarma[6] ? 'assets/happy_shawarma.gif' : 'assets/shawarma.png'
+            }}"
+            alt="shawarma"
+          />
+        }
+        <div>
+          <h5>Ingredients:</h5>
+          <pre>{{ shawarma.slice(0, -1) | json }}</pre>
+        </div>
+      </section>
+    </ng-container>
+  </div>
+</div>
