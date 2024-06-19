@@ -4,7 +4,6 @@
     <img src="assets/shawarma.png" alt="shawarma" width="25" />
   </div>
   <hr />
-
   <div>
     <div class="ingredient">
       <span>Remaining: {{ flatBreadCount - shawarmas.length }}</span>
@@ -38,6 +37,10 @@
   </div>
 
   <div>
+    <section
+      *ngIf="!shawarmas || shawarmas.length === 0"
+      style="height: 27em"
+    ></section>
     <ng-container *ngIf="shawarma$ | async as shawarma">
       <section *ngIf="shawarma && shawarma.length > 0">
         <h5>
