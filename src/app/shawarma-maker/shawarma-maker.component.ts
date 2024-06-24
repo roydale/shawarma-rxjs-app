@@ -21,7 +21,6 @@ type Shawarma = [
   styleUrl: './shawarma-maker.component.scss',
 })
 export class ShawarmaMakerComponent implements OnInit {
-  chance = 5;
   shawarma$!: Observable<Shawarma>;
 
   _flatBread = new Subject<'Flat Bread'>();
@@ -78,7 +77,8 @@ export class ShawarmaMakerComponent implements OnInit {
   }
 
   isShowHappyShawarma(): boolean {
-    const randomNumber = Math.floor(Math.random() * this.chance) + 1;
+    const maxOdds = 4;
+    const randomNumber = Math.floor(Math.random() * maxOdds) + 1;
     return randomNumber === 1;
   }
 

@@ -1,0 +1,802 @@
+[
+  {
+    "id": 1,
+    "name": "Bewildered"
+  },
+  {
+    "id": 2,
+    "name": "Ignorant"
+  },
+  {
+    "id": 3,
+    "name": "Didactic"
+  },
+  {
+    "id": 4,
+    "name": "Uppity"
+  },
+  {
+    "id": 5,
+    "name": "Splendid"
+  },
+  {
+    "id": 6,
+    "name": "Abrupt"
+  },
+  {
+    "id": 7,
+    "name": "Ill"
+  },
+  {
+    "id": 8,
+    "name": "Keen"
+  },
+  {
+    "id": 9,
+    "name": "Macabre"
+  },
+  {
+    "id": 10,
+    "name": "Minor"
+  },
+  {
+    "id": 11,
+    "name": "Chief"
+  },
+  {
+    "id": 12,
+    "name": "Careless"
+  },
+  {
+    "id": 13,
+    "name": "Cowardly"
+  },
+  {
+    "id": 14,
+    "name": "Utopian"
+  },
+  {
+    "id": 15,
+    "name": "Uncovered"
+  },
+  {
+    "id": 16,
+    "name": "Trashy"
+  },
+  {
+    "id": 17,
+    "name": "Spiffy"
+  },
+  {
+    "id": 18,
+    "name": "Adamant"
+  },
+  {
+    "id": 19,
+    "name": "Better"
+  },
+  {
+    "id": 20,
+    "name": "Functional"
+  },
+  {
+    "id": 21,
+    "name": "Knotty"
+  },
+  {
+    "id": 22,
+    "name": "Tasteful"
+  },
+  {
+    "id": 23,
+    "name": "Flawless"
+  },
+  {
+    "id": 24,
+    "name": "Faint"
+  },
+  {
+    "id": 25,
+    "name": "Pastoral"
+  },
+  {
+    "id": 26,
+    "name": "Fragile"
+  },
+  {
+    "id": 27,
+    "name": "Extra-small"
+  },
+  {
+    "id": 28,
+    "name": "Spotless"
+  },
+  {
+    "id": 29,
+    "name": "Right"
+  },
+  {
+    "id": 30,
+    "name": "Enormous"
+  },
+  {
+    "id": 31,
+    "name": "Plucky"
+  },
+  {
+    "id": 32,
+    "name": "Future"
+  },
+  {
+    "id": 33,
+    "name": "Wrathful"
+  },
+  {
+    "id": 34,
+    "name": "Envious"
+  },
+  {
+    "id": 35,
+    "name": "Gruesome"
+  },
+  {
+    "id": 36,
+    "name": "Polite"
+  },
+  {
+    "id": 37,
+    "name": "Plausible"
+  },
+  {
+    "id": 38,
+    "name": "Past"
+  },
+  {
+    "id": 39,
+    "name": "Fretful"
+  },
+  {
+    "id": 40,
+    "name": "Sincere"
+  },
+  {
+    "id": 41,
+    "name": "Upbeat"
+  },
+  {
+    "id": 42,
+    "name": "Savory"
+  },
+  {
+    "id": 43,
+    "name": "Decisive"
+  },
+  {
+    "id": 44,
+    "name": "Tidy"
+  },
+  {
+    "id": 45,
+    "name": "Robust"
+  },
+  {
+    "id": 46,
+    "name": "Volatile"
+  },
+  {
+    "id": 47,
+    "name": "Adhesive"
+  },
+  {
+    "id": 48,
+    "name": "Mere"
+  },
+  {
+    "id": 49,
+    "name": "Opposite"
+  },
+  {
+    "id": 50,
+    "name": "Discreet"
+  },
+  {
+    "id": 51,
+    "name": "Conscious"
+  },
+  {
+    "id": 52,
+    "name": "Chunky"
+  },
+  {
+    "id": 53,
+    "name": "Harsh"
+  },
+  {
+    "id": 54,
+    "name": "Lean"
+  },
+  {
+    "id": 55,
+    "name": "Hungry"
+  },
+  {
+    "id": 56,
+    "name": "Youthful"
+  },
+  {
+    "id": 57,
+    "name": "Laughable"
+  },
+  {
+    "id": 58,
+    "name": "Absent"
+  },
+  {
+    "id": 59,
+    "name": "Gigantic"
+  },
+  {
+    "id": 60,
+    "name": "Imperfect"
+  },
+  {
+    "id": 61,
+    "name": "Stormy"
+  },
+  {
+    "id": 62,
+    "name": "Private"
+  },
+  {
+    "id": 63,
+    "name": "Spiteful"
+  },
+  {
+    "id": 64,
+    "name": "Mundane"
+  },
+  {
+    "id": 65,
+    "name": "Wakeful"
+  },
+  {
+    "id": 66,
+    "name": "Whispering"
+  },
+  {
+    "id": 67,
+    "name": "Plain"
+  },
+  {
+    "id": 68,
+    "name": "Addicted"
+  },
+  {
+    "id": 69,
+    "name": "White"
+  },
+  {
+    "id": 70,
+    "name": "Gratis"
+  },
+  {
+    "id": 71,
+    "name": "Crazy"
+  },
+  {
+    "id": 72,
+    "name": "Bright"
+  },
+  {
+    "id": 73,
+    "name": "Tearful"
+  },
+  {
+    "id": 74,
+    "name": "Irate"
+  },
+  {
+    "id": 75,
+    "name": "Rude"
+  },
+  {
+    "id": 76,
+    "name": "Absorbed"
+  },
+  {
+    "id": 77,
+    "name": "Weary"
+  },
+  {
+    "id": 78,
+    "name": "Nifty"
+  },
+  {
+    "id": 79,
+    "name": "Soft"
+  },
+  {
+    "id": 80,
+    "name": "Ancient"
+  },
+  {
+    "id": 81,
+    "name": "Wide"
+  },
+  {
+    "id": 82,
+    "name": "Maddening"
+  },
+  {
+    "id": 83,
+    "name": "Acrid"
+  },
+  {
+    "id": 84,
+    "name": "Disillusioned"
+  },
+  {
+    "id": 85,
+    "name": "Gullible"
+  },
+  {
+    "id": 86,
+    "name": "Dreary"
+  },
+  {
+    "id": 87,
+    "name": "Cheerful"
+  },
+  {
+    "id": 88,
+    "name": "Poised"
+  },
+  {
+    "id": 89,
+    "name": "Ambitious"
+  },
+  {
+    "id": 90,
+    "name": "Noiseless"
+  },
+  {
+    "id": 91,
+    "name": "Fat"
+  },
+  {
+    "id": 92,
+    "name": "Rich"
+  },
+  {
+    "id": 93,
+    "name": "Long"
+  },
+  {
+    "id": 94,
+    "name": "Knowledgeable"
+  },
+  {
+    "id": 95,
+    "name": "Madly"
+  },
+  {
+    "id": 96,
+    "name": "Helpful"
+  },
+  {
+    "id": 97,
+    "name": "Best"
+  },
+  {
+    "id": 98,
+    "name": "Oceanic"
+  },
+  {
+    "id": 99,
+    "name": "Finicky"
+  },
+  {
+    "id": 100,
+    "name": "Aggressive"
+  },
+  {
+    "id": 101,
+    "name": "Magical"
+  },
+  {
+    "id": 102,
+    "name": "Milky"
+  },
+  {
+    "id": 103,
+    "name": "Deranged"
+  },
+  {
+    "id": 104,
+    "name": "Grumpy"
+  },
+  {
+    "id": 105,
+    "name": "Super"
+  },
+  {
+    "id": 106,
+    "name": "Caring"
+  },
+  {
+    "id": 107,
+    "name": "Incandescent"
+  },
+  {
+    "id": 108,
+    "name": "Nondescript"
+  },
+  {
+    "id": 109,
+    "name": "Purring"
+  },
+  {
+    "id": 110,
+    "name": "Glorious"
+  },
+  {
+    "id": 111,
+    "name": "Alleged"
+  },
+  {
+    "id": 112,
+    "name": "Miniature"
+  },
+  {
+    "id": 113,
+    "name": "Nostalgic"
+  },
+  {
+    "id": 114,
+    "name": "Near"
+  },
+  {
+    "id": 115,
+    "name": "Literate"
+  },
+  {
+    "id": 116,
+    "name": "Famous"
+  },
+  {
+    "id": 117,
+    "name": "Majestic"
+  },
+  {
+    "id": 118,
+    "name": "Living"
+  },
+  {
+    "id": 119,
+    "name": "Separate"
+  },
+  {
+    "id": 120,
+    "name": "Attractive"
+  },
+  {
+    "id": 121,
+    "name": "Solid"
+  },
+  {
+    "id": 122,
+    "name": "Embarrassed"
+  },
+  {
+    "id": 123,
+    "name": "Blue-eyed"
+  },
+  {
+    "id": 124,
+    "name": "Needless"
+  },
+  {
+    "id": 125,
+    "name": "Illegal"
+  },
+  {
+    "id": 126,
+    "name": "Hurt"
+  },
+  {
+    "id": 127,
+    "name": "Deserted"
+  },
+  {
+    "id": 128,
+    "name": "Shaggy"
+  },
+  {
+    "id": 129,
+    "name": "Odd"
+  },
+  {
+    "id": 130,
+    "name": "Curious"
+  },
+  {
+    "id": 131,
+    "name": "Thundering"
+  },
+  {
+    "id": 132,
+    "name": "Superb"
+  },
+  {
+    "id": 133,
+    "name": "Zonked"
+  },
+  {
+    "id": 134,
+    "name": "Handsome"
+  },
+  {
+    "id": 135,
+    "name": "Steadfast"
+  },
+  {
+    "id": 136,
+    "name": "Thick"
+  },
+  {
+    "id": 137,
+    "name": "Burly"
+  },
+  {
+    "id": 138,
+    "name": "Quizzical"
+  },
+  {
+    "id": 139,
+    "name": "Giant"
+  },
+  {
+    "id": 140,
+    "name": "Perpetual"
+  },
+  {
+    "id": 141,
+    "name": "Meaty"
+  },
+  {
+    "id": 142,
+    "name": "Dashing"
+  },
+  {
+    "id": 143,
+    "name": "Wretched"
+  },
+  {
+    "id": 144,
+    "name": "Material"
+  },
+  {
+    "id": 145,
+    "name": "Rough"
+  },
+  {
+    "id": 146,
+    "name": "Five"
+  },
+  {
+    "id": 147,
+    "name": "Hilarious"
+  },
+  {
+    "id": 148,
+    "name": "Round"
+  },
+  {
+    "id": 149,
+    "name": "Animated"
+  },
+  {
+    "id": 150,
+    "name": "Outrageous"
+  },
+  {
+    "id": 151,
+    "name": "Wicked"
+  },
+  {
+    "id": 152,
+    "name": "Evasive"
+  },
+  {
+    "id": 153,
+    "name": "Lively"
+  },
+  {
+    "id": 154,
+    "name": "Sable"
+  },
+  {
+    "id": 155,
+    "name": "Misty"
+  },
+  {
+    "id": 156,
+    "name": "Amuck"
+  },
+  {
+    "id": 157,
+    "name": "Weak"
+  },
+  {
+    "id": 158,
+    "name": "Silent"
+  },
+  {
+    "id": 159,
+    "name": "Waggish"
+  },
+  {
+    "id": 160,
+    "name": "Fanatical"
+  },
+  {
+    "id": 161,
+    "name": "Abounding"
+  },
+  {
+    "id": 162,
+    "name": "Female"
+  },
+  {
+    "id": 163,
+    "name": "Temporary"
+  },
+  {
+    "id": 164,
+    "name": "Recondite"
+  },
+  {
+    "id": 165,
+    "name": "Damaging"
+  },
+  {
+    "id": 166,
+    "name": "Greasy"
+  },
+  {
+    "id": 167,
+    "name": "Shocking"
+  },
+  {
+    "id": 168,
+    "name": "Rapid"
+  },
+  {
+    "id": 169,
+    "name": "Present"
+  },
+  {
+    "id": 170,
+    "name": "Wet"
+  },
+  {
+    "id": 171,
+    "name": "Ugly"
+  },
+  {
+    "id": 172,
+    "name": "Delicious"
+  },
+  {
+    "id": 173,
+    "name": "Rare"
+  },
+  {
+    "id": 174,
+    "name": "Poor"
+  },
+  {
+    "id": 175,
+    "name": "Blue"
+  },
+  {
+    "id": 176,
+    "name": "Fresh"
+  },
+  {
+    "id": 177,
+    "name": "Enthusiastic"
+  },
+  {
+    "id": 178,
+    "name": "Violet"
+  },
+  {
+    "id": 179,
+    "name": "Lethal"
+  },
+  {
+    "id": 180,
+    "name": "Puzzling"
+  },
+  {
+    "id": 181,
+    "name": "Enchanted"
+  },
+  {
+    "id": 182,
+    "name": "Unbecoming"
+  },
+  {
+    "id": 183,
+    "name": "Maniacal"
+  },
+  {
+    "id": 184,
+    "name": "Lacking"
+  },
+  {
+    "id": 185,
+    "name": "Marvelous"
+  },
+  {
+    "id": 186,
+    "name": "Tense"
+  },
+  {
+    "id": 187,
+    "name": "Tame"
+  },
+  {
+    "id": 188,
+    "name": "Muddled"
+  },
+  {
+    "id": 189,
+    "name": "Lonely"
+  },
+  {
+    "id": 190,
+    "name": "Incompetent"
+  },
+  {
+    "id": 191,
+    "name": "Alcoholic"
+  },
+  {
+    "id": 192,
+    "name": "Omniscient"
+  },
+  {
+    "id": 193,
+    "name": "Strong"
+  },
+  {
+    "id": 194,
+    "name": "Dirty"
+  },
+  {
+    "id": 195,
+    "name": "Nasty"
+  },
+  {
+    "id": 196,
+    "name": "Disgusted"
+  },
+  {
+    "id": 197,
+    "name": "Unclean"
+  },
+  {
+    "id": 198,
+    "name": "Unknown"
+  },
+  {
+    "id": 199,
+    "name": "Useless"
+  },
+  {
+    "id": 200,
+    "name": "Hysterical"
+  }
+]
