@@ -1,4 +1,4 @@
-import { CommonModule, NgFor } from '@angular/common';
+import { CommonModule } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 import { faker } from '@faker-js/faker';
 import { Member } from '../models/member.model';
@@ -11,7 +11,7 @@ type Team = [Member, Member, Member, Member, Member];
 @Component({
   selector: 'app-team-builder',
   standalone: true,
-  imports: [CommonModule, NgFor],
+  imports: [CommonModule],
   templateUrl: './team-builder.component.html',
   styleUrl: './team-builder.component.scss',
 })
@@ -57,7 +57,7 @@ export class TeamBuilderComponent implements OnInit {
       firstName: faker.person.firstName(),
       lastName: faker.person.lastName(),
       email: faker.internet.email(),
-      avatar: faker.image.avatarLegacy(),
+      avatar: faker.image.avatar(),
       birthdate,
       alias: '',
       age,

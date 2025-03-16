@@ -16,7 +16,7 @@ type Shawarma = [
 @Component({
   selector: 'app-shawarma-maker',
   standalone: true,
-  imports: [CommonModule, RouterOutlet, RouterLink],
+  imports: [CommonModule],
   templateUrl: './shawarma-maker.component.html',
   styleUrl: './shawarma-maker.component.scss',
 })
